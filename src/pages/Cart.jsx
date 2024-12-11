@@ -6,7 +6,6 @@ export const Cart = () => {
 
     const { cart, removeProductFromCart } = useStoreContext();
 
-
     return (
         <>
             {/* Cart Part Starts */}
