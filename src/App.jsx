@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import Applayout from "./components/Applayout";
@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <StoreProvider>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Routes>
           <Route element={<Applayout />}>
@@ -29,7 +29,7 @@ const App = () => {
             <Route path="/cart" element={<Cart />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </StoreProvider>
   )
 
