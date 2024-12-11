@@ -1,0 +1,270 @@
+@media (max-width:599px) {
+    .desktop-view .ctas {
+        display: none;
+    }
+
+    .mobile-view .ctas {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .mobile-view .ctas button,
+    .ctas ul li {
+        background-color: var(--color2);
+        padding: 0px 10px 6px 10px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .mobile-view .ctas button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .ctas ul li a {
+        font-size: 1.5rem;
+    }
+
+    .mobile-navlink button {
+        display: block;
+    }
+
+    header .row {
+        padding: 0 0.2rem;
+    }
+
+    .main {
+        margin-top: 55px;
+    }
+
+    .about-head h1 {
+        font-size: 2rem;
+        text-shadow: -2px 1px 0px #fff;
+    }
+
+    .mobile-view {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-view .ctas ul {
+        gap: 0.5rem;
+    }
+
+    .menu-links ul {
+        padding-top: 1rem;
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    .mobile-navlink {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #000000de;
+        width: 50%;
+        height: 100vh;
+        display: none;
+        transition: all 0.6s linear;
+    }
+
+    .open {
+        transition: all 0.2 linear;
+    }
+
+    .menu-links ul li a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .menu-links ul .nav-item a::before {
+        display: none;
+    }
+
+    .menu-links ul li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 0.2rem 0;
+    }
+
+    .mobile-navlink button {
+        position: absolute;
+        top: 1%;
+        left: 2%;
+        background: none;
+        outline: none;
+        border: none;
+        color: #FF9A00;
+        font-size: 1.5rem;
+    }
+
+    .product-card {
+        margin: 5px 0;
+    }
+
+    .product-card h4 {
+        font-size: 1.4rem;
+    }
+
+    .product-card p {
+        font-size: 1.3rem;
+    }
+
+    .poster img {
+        margin: 5px 0;
+    }
+
+    .media-gallery {
+        display: block !important;
+    }
+
+    .footer {
+        padding: 1.5rem 0rem 5px 0rem;
+    }
+
+    .footer .socila-media ul {
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+
+    .footer .payments ul {
+        padding-left: 0;
+    }
+
+    .behind-scene img {
+        width: 365px;
+    }
+
+    .products-list {
+        height: 125vh;
+    }
+
+    .account .before-login button {
+        width: 50%;
+    }
+
+    .account .before-login {
+        height: 150px;
+        width: 100%;
+    }
+
+    .account .acc-creation {
+        top: 90px;
+    }
+
+    .account .inner-cont {
+        width: 90%;
+        text-align: center;
+    }
+
+    .space {
+        padding: 2rem 0 1rem 0;
+    }
+
+    .wc-list .items-details h4,
+    .wc-list .items-details p {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .footer .payments ul li {
+        font-size: 2rem;
+    }
+
+    .payments h2 {
+        margin-bottom: 0;
+    }
+
+    .wc-align {
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:990px) {
+    .ctas ul li {
+        padding: 2px 0.5rem;
+    }
+
+    header .row {
+        padding: 0 1rem;
+    }
+
+    .ctas ul {
+        gap: 0.5rem;
+    }
+
+    .main {
+        margin-top: 60px;
+    }
+
+    .product-card {
+        margin: 0.5rem 0;
+    }
+
+    .new-arrivals {
+        padding: 0.5rem 0 0 0;
+    }
+
+    .product-card h4 {
+        font-size: 1.2rem;
+    }
+
+    .product-card p {
+        font-size: 1.3rem;
+    }
+
+    .review-card {
+        min-height: 93%;
+    }
+
+    .behind-scene img {
+        width: 345px;
+    }
+
+    .categories {
+        padding: 2rem 1rem;
+    }
+
+    .product-cont .row {
+        transform: translate(-48%, -50%);
+        width: 95%;
+    }
+
+    .lists .items-details .bc-btn button {
+        padding: 0px 5px;
+    }
+
+    .account .before-login {
+        width: 80%;
+        text-align: center;
+    }
+
+    .account .acc-creation {
+        top: 65px;
+    }
+
+    .account .inner-cont {
+        top: 40%;
+        width: 60%;
+        text-align: center;
+    }
+
+    .footer h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer .payments ul li {
+        font-size: 2rem;
+    }
+
+    .payments h2 {
+        margin-bottom: 0;
+    }
+}
