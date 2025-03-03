@@ -10,7 +10,7 @@ import { Shop } from "./pages/Shop";
 import { Cart } from "./pages/Cart";
 import { Wishlist } from "./pages/Wishlist";
 import { StoreProvider } from "./pages/StoreProvider";
-import { Account } from "./pages/Account";
+// import { Account } from "./pages/Account";
 import { ScrollToTop } from "./pages/ScrollToTop";
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/wishlist" element={<Wishlist />} />
-            <Route path="/account" element={<Account />} />
+            {/* <Route path="/account" element={<Account />} /> */}
             <Route path="/cart" element={<Cart />} />
           </Route>
         </Routes>

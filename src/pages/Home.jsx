@@ -1,5 +1,5 @@
 import { FaHeart } from "react-icons/fa";
-import { FaShare } from "react-icons/fa6";
+// import { FaShare } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
 import { BsArrowsFullscreen } from "react-icons/bs";
 import collectionsdata from "../collectionsdata";
@@ -25,13 +25,13 @@ export const Home = () => {
                 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="./images/banner1.png" className="d-block w-100" alt="..." />
+                            <img src="./images/banner1.png" loading="lazy" className="d-block w-100" alt="banner" />
                         </div>
                         <div className="carousel-item">
-                            <img src="./images/banner2.png" className="d-block w-100" alt="..." />
+                            <img src="./images/banner2.png" loading="lazy" className="d-block w-100" alt="banner" />
                         </div>
                         <div className="carousel-item">
-                            <img src="./images/banner3.png" className="d-block w-100" alt="..." />
+                            <img src="./images/banner3.png" loading="lazy" className="d-block w-100" alt="banner" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -79,16 +79,16 @@ export const Home = () => {
                                         <ul>
                                             <li><a><FaHeart /></a></li>
                                             <li><a><FaCartShopping /></a></li>
-                                            <li><a><FaShare /></a></li>
+                                            {/* <li><a><FaShare /></a></li> */}
                                             <li><a><BsArrowsFullscreen /></a></li>
                                         </ul>
                                     </div>
-                                    <img src={picks.image} alt="" />
+                                    <img src={picks.image} alt="Top picks" loading="lazy" />
                                     <div className="text-center pt-2">
                                         <h4 className="fw-bold">{picks.title}</h4>
-                                        <p>${picks.price}</p>
+                                        <p>&#8377;{picks.price}</p>
                                         <div className="buy-btn pb-3">
-                                            <a href="#" className="text-capitalize">{picks.button}</a>
+                                            <a className="text-capitalize">{picks.button}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,12 +105,12 @@ export const Home = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div>
-                                <img src="images/sales1.png" alt="" />
+                                <img src="images/sales1.png" alt="offers banner" loading="lazy" />
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div>
-                                <img src="images/sales2.png" alt="" />
+                                <img src="images/sales2.png" alt="offers banner" loading="lazy" />
                             </div>
                         </div>
                     </div>
@@ -129,11 +129,11 @@ export const Home = () => {
                         </div>
                     </div>
                     <div className="d-flex media-gallery">
-                        <div><img src="images/feed1.png" alt="" /></div>
-                        <div><img src="images/feed2.png" alt="" /></div>
-                        <div><img src="images/feed3.png" alt="" /></div>
-                        <div><img src="images/feed4.png" alt="" /></div>
-                        <div><img src="images/feed5.png" alt="" /></div>
+                        <div><img src="images/feed1.png" alt="Social media gallery" loading="lazy" /></div>
+                        <div><img src="images/feed2.png" alt="Social media gallery" loading="lazy" /></div>
+                        <div><img src="images/feed3.png" alt="Social media gallery" loading="lazy" /></div>
+                        <div><img src="images/feed4.png" alt="Social media gallery" loading="lazy" /></div>
+                        <div><img src="images/feed5.png" alt="Social media gallery" loading="lazy" /></div>
                     </div>
                 </div>
             </section>

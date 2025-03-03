@@ -1,4 +1,4 @@
-import { FaShare } from "react-icons/fa6";
+// import { FaShare } from "react-icons/fa6";
 import { RiDeleteBin3Fill } from "react-icons/ri";
 import { useStoreContext } from "./StoreProvider";
 
@@ -24,8 +24,8 @@ export const Cart = () => {
                                         cart.map((item) => (
                                             <div key={item.Id} className="col-md-6 col-lg-3 d-flex justify-content-center">
                                                 <div className="lists wc-list">
-                                                    <div className="sh-btn d-flex justify-content-between align-items-center">
-                                                        <button><FaShare /></button>
+                                                    <div className="sh-btn d-flex justify-content-end align-items-center">
+                                                        {/* <button><FaShare /></button> */}
                                                         <button onClick={() => removeProductFromCart(item.id)}><RiDeleteBin3Fill /></button>
                                                     </div>
                                                     <div className="product-img">

@@ -185,6 +185,11 @@
     .wc-align {
         justify-content: center;
     }
+
+    .categories .categories-list ul {
+        justify-content: flex-start;
+        overflow: auto;
+    }
 }
 
 @media (min-width:768px) and (max-width:990px) {

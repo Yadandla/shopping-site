@@ -4,7 +4,7 @@ export const About = () => {
             {/* Banners Part Starts */}
             <section className="banner-part about-banner">
                 <div className="abput-us-banner">
-                    <img src="images/About Us.png" alt="" />
+                    <img src="images/About Us.png" alt="About banner" loading="lazy" />
                 </div>
                 <div className="about-head">
                     <h1>About Us</h1>

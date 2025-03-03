@@ -25,7 +25,7 @@ const Header = () => {
                             <div className="col-md-4 mobile-view">
                                 <div className="logo">
                                     {/* <img src="" alt="logo" /> */}
-                                    <h1>TrendsU</h1>
+                                    <NavLink to="/" ><h1>Trends<span>U</span></h1></NavLink>
                                 </div>
                                 <div className="ctas">
                                     <button id="openmenu" onClick={openMenu}><GiHamburgerMenu /></button>
@@ -51,7 +51,7 @@ const Header = () => {
                             <div className="col-md-4 d-flex justify-content-end align-items-center desktop-view">
                                 <div className="ctas">
                                     <ul>
-                                        <li className="nav-item2"><NavLink><IoMdPerson /> Account</NavLink></li>
+                                        {/* <li className="nav-item2"><NavLink to="/account"><IoMdPerson /> Account</NavLink></li> */}
                                         <li className="nav-item2"><NavLink to="/cart"><PiShoppingCartFill /> Cart</NavLink></li>
                                     </ul>
                                 </div>

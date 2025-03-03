@@ -71,16 +71,16 @@ const Footer = () => {
                             <hr style={{ color: "#ffffff52" }} />
                             <div className="col-md-6">
                                 <div className="copyrights">
-                                    <p>© 2024 ShopNow. All Rights Reserved | Developed by ShopNow Team</p>
+                                    <p>© 2025 ShopNow. All Rights Reserved</p>
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="socila-media">
                                     <ul>
-                                        <li><a href=""><FaFacebook /></a></li>
-                                        <li><a href=""><FaSquareXTwitter /></a></li>
-                                        <li><a href=""><FaLinkedin /></a></li>
-                                        <li><a href=""><FaInstagramSquare /></a></li>
+                                        <li><a><FaFacebook /></a></li>
+                                        <li><a><FaSquareXTwitter /></a></li>
+                                        <li><a><FaLinkedin /></a></li>
+                                        <li><a><FaInstagramSquare /></a></li>
                                     </ul>
                                 </div>
                             </div>

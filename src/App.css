@@ -90,7 +90,15 @@ header .row {
 
 .logo h1 {
     color: var(--color3);
-    text-shadow: -4px -4px 4px var(--color1);
+}
+
+.logo span {
+    color: var(--color2);
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .mobile-navlink button {
@@ -493,11 +501,6 @@ header .row {
     color: #fff;
 }
 
-.categories .categories-list ul {
-    padding: 0.5rem 0 0 0;
-    margin-bottom: 0;
-}
-
 .categories .categories-list ul li {
     list-style-type: none;
 }
@@ -507,7 +510,7 @@ header .row {
     padding: 0.3rem;
     font-size: 18px;
     color: white;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -525,14 +528,14 @@ header .row {
     transform: translateX(0px);
 }
 
-.categories {
+/* .categories {
     background: #000;
     padding: 2rem 2rem;
     border-radius: 1rem;
     position: sticky;
     top: 10rem;
     overflow-y: auto;
-}
+} */
 
 .products-list {
     height: 100vh;
@@ -564,7 +567,7 @@ header .row {
 .lists .items-details h4 {
     font-size: 1rem;
     margin-bottom: 0;
-    min-height: 40px;
+    min-height: 60px;
     font-weight: 600;
 }
 
@@ -1090,4 +1093,41 @@ header .row {
 
 .likes ul li:hover {
     background-color: #000;
+}
+
+.buy-btn {
+    cursor: default;
+}
+
+.mobile-view2 button {
+    background: #000;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+    border-radius: 5px;
+}
+
+.back-pagebtn {
+    background: #ff9a00;
+    color: #000;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.categories .categories-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 1rem;
+    background-color: var(--color1);
+    border-radius: 5px;
 }
