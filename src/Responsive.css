@@ -380,3 +380,10 @@
     }
 
 }
+
+@media (max-width:340px) {
+    .behind-scene img {
+        width: 300px;
+    }
+
+}
