@@ -159,11 +159,11 @@ export const Home = () => {
                             loop={true}
                             autoplay={{ delay: 4000 }}
                             breakpoints={{
-                                375: {
+                                320: {
                                     slidesPerView: 1,
                                     spaceBetween: 40,
                                 },
-                                599: {
+                                375: {
                                     slidesPerView: 1,
                                     spaceBetween: 40,
                                 },

@@ -309,7 +309,7 @@
     }
 
     .behind-scene img {
-        width: 350px;
+        width: 345px;
     }
 
     .products-list {
@@ -374,4 +374,9 @@
         width: 96%;
         transform: none;
     }
+
+    .review-card {
+        min-height: 98%;
+    }
+
 }
