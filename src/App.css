@@ -118,8 +118,9 @@ header .row {
 
 .ctas .nav-item2 a {
     text-decoration: none;
-    padding: 0.3rem 1rem;
+    padding: 5px 15px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .nav-link3 {
@@ -492,6 +493,11 @@ header .row {
     padding: 5px;
     border-radius: 5px;
     min-height: 90%;
+    background: #fff3e0;
+}
+
+.lists:hover {
+    background-color: #fff;
 }
 
 .lists:hover .product-img img {
@@ -587,7 +593,8 @@ header .row {
     outline: none;
     border: 2px solid #00000080;
     padding: 0px 10px;
-    background: none;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .lists .items-details .bc-btn button:hover {
@@ -1151,9 +1158,8 @@ header .row {
     border-radius: 5px;
 }
 
-/* .pricing-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
+.space .wc-list:hover .sh-btn button,
+.space .wc-list:hover .items-details h4,
+.space .wc-list:hover p {
+    color: #000;
+}

@@ -1,3 +1,15 @@
+@media (min-width:1370px) and (max-width:1500px) {
+    .lists .items-details .bc-btn {
+        display: block !important;
+    }
+
+    .lists .items-details .bc-btn button {
+        width: 100%;
+        margin: 0 0 5px 0;
+    }
+}
+
+
 @media (min-width:1024px) and (max-width:1370px) {
     .product-cont .row {
         width: 95%;
@@ -16,6 +28,16 @@
     .product-cont .row::-webkit-scrollbar-track {
         background-color: #000;
     }
+
+    .lists .items-details .bc-btn {
+        display: block !important;
+    }
+
+    .lists .items-details .bc-btn button {
+        width: 100%;
+        margin: 0 0 5px 0;
+    }
+
 }
 
 
@@ -67,7 +89,7 @@
     .product-cont .row {
         transform: none;
         max-width: 95%;
-        top: 15%;
+        top: 4%;
         left: 4%;
         width: 100%;
     }
@@ -152,10 +174,12 @@
 
     .mobile-view .ctas button {
         background-color: var(--color2);
-        padding: 0px 10px 1px 10px;
+        padding: 0 10px 1px;
         border-radius: 5px;
         font-size: 1.5rem;
         color: #fff;
+        border: none;
+        outline: none;
     }
 
     .mobile-view .ctas button:hover {
@@ -285,7 +309,7 @@
     }
 
     .behind-scene img {
-        width: 360px;
+        width: 350px;
     }
 
     .products-list {

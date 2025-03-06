@@ -114,7 +114,7 @@ export const Shop = () => {
                                 <div className="row">
                                     {
                                         filteredProducts.map((product) => (
-                                            <div key={product.id} className="col-md-4 col-lg-3">
+                                            <div key={product.id} className="col-md-4 col-lg-2">
                                                 <div className="lists">
                                                     {/* Product Image */}
                                                     <div className="product-img">

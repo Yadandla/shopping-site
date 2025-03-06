@@ -163,6 +163,10 @@ export const Home = () => {
                                     slidesPerView: 1,
                                     spaceBetween: 40,
                                 },
+                                599: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 40,
+                                },
                                 768: {
                                     slidesPerView: 2,
                                     spaceBetween: 50,

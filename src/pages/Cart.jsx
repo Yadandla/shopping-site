@@ -22,7 +22,7 @@ export const Cart = () => {
                                 <div className="row pt-2 wc-align">
                                     {
                                         cart.map((item) => (
-                                            <div key={item.Id} className="col-md-6 col-lg-3 d-flex justify-content-center">
+                                            <div key={item.Id} className="col-md-3 col-lg-3 d-flex justify-content-center">
                                                 <div className="lists wc-list">
                                                     <div className="sh-btn d-flex justify-content-end align-items-center">
                                                         {/* <button><FaShare /></button> */}
