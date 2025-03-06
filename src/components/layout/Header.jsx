@@ -1,16 +1,20 @@
 import { NavLink } from "react-router-dom";
-import { IoMdPerson } from "react-icons/io";
+// import { IoMdPerson } from "react-icons/io";
 import { PiShoppingCartFill } from "react-icons/pi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
+import { FaHeart } from "react-icons/fa6";
 
 const Header = () => {
 
     const openMenu = () => {
-        document.getElementById("mobile-navlink").style.display = "block";
+        document.getElementById("mobile-navlink").style.width = "200px";
+        document.getElementById("openmenu").style.display = "none";
     }
     const closeMenu = () => {
-        document.getElementById("mobile-navlink").style.display = "none";
+        document.getElementById("mobile-navlink").style.width = "0";
+        document.getElementById("openmenu").style.display = "block";
+
     }
 
     // const scrollToTop = () => {
@@ -30,8 +34,8 @@ const Header = () => {
                                 <div className="ctas">
                                     <button id="openmenu" onClick={openMenu}><GiHamburgerMenu /></button>
                                     <ul>
-                                        <li className="nav-item2"><NavLink to="/account"><IoMdPerson /></NavLink></li>
-                                        <li className="nav-item2"><NavLink to="/cart"><PiShoppingCartFill /></NavLink></li>
+                                        <li className="nav-item2"><NavLink to="/wishlist" className={({ isActive }) => isActive ? "nav-link2" : "nav-link3"}><FaHeart /></NavLink></li>
+                                        <li className="nav-item2"><NavLink to="/cart" className={({ isActive }) => isActive ? "nav-link2" : "nav-link3"}><PiShoppingCartFill /></NavLink></li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,7 +47,7 @@ const Header = () => {
                                             <li className="nav-item"><NavLink to="/" className={({ isActive }) => isActive ? "Nav-link active" : "Nav-link"}>Home</NavLink></li>
                                             <li className="nav-item"><NavLink to="/about" className="Nav-link">About</NavLink></li>
                                             <li className="nav-item"><NavLink to="/shop" className="Nav-link">Shop</NavLink></li>
-                                            <li className="nav-item"><NavLink to="/wishlist" className="Nav-link">Wishlist</NavLink></li>
+                                            <li className="nav-item"><NavLink to="/wishlist" className="Nav-link wishlist-tab">Wishlist</NavLink></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -52,7 +56,7 @@ const Header = () => {
                                 <div className="ctas">
                                     <ul>
                                         {/* <li className="nav-item2"><NavLink to="/account"><IoMdPerson /> Account</NavLink></li> */}
-                                        <li className="nav-item2"><NavLink to="/cart"><PiShoppingCartFill /> Cart</NavLink></li>
+                                        <li className="nav-item2"><NavLink to="/cart" className={({ isActive }) => isActive ? "nav-link2" : "nav-link3"}><PiShoppingCartFill /> Cart</NavLink></li>
                                     </ul>
                                 </div>
                             </div>

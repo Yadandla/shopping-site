@@ -54,13 +54,13 @@ export const Shop = () => {
                                         }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Shirts</a></li>
                                         <li><a onClick={() => handleSelectedCategory("Bottom Wear")} style={{
                                             color: selectedCategory === "Bottom Wear" ? "#FF9A00" : "#fff",
-                                        }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Bottom Wear</a></li>
+                                        }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Bottom...</a></li>
                                         <li><a onClick={() => handleSelectedCategory("Sarees")} style={{
                                             color: selectedCategory === "Sarees" ? "#FF9A00" : "#fff",
                                         }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Sarees</a></li>
                                         <li><a onClick={() => handleSelectedCategory("Lehangas and Kurtis")} style={{
                                             color: selectedCategory === "Lehangas and Kurtis" ? "#FF9A00" : "#fff",
-                                        }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Lehangas and Kurtis</a></li>
+                                        }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Lehangas...</a></li>
                                         <li><a onClick={() => handleSelectedCategory("Footwear")} style={{
                                             color: selectedCategory === "Footwear" ? "#FF9A00" : "#fff",
                                         }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Footwears</a></li>
@@ -114,7 +114,7 @@ export const Shop = () => {
                                 <div className="row">
                                     {
                                         filteredProducts.map((product) => (
-                                            <div key={product.id} className="col-md-4 col-lg-2">
+                                            <div key={product.id} className="col-md-4 col-lg-3">
                                                 <div className="lists">
                                                     {/* Product Image */}
                                                     <div className="product-img">

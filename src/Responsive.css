@@ -1,3 +1,145 @@
+@media (min-width:1024px) and (max-width:1370px) {
+    .product-cont .row {
+        width: 95%;
+        max-width: 90%;
+        height: 90%;
+    }
+
+    .popup-item-img img {
+        max-width: 65%;
+    }
+
+    .product-cont .row::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .product-cont .row::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .ctas ul li {
+        padding: 2px 0.5rem;
+    }
+
+    header .row {
+        padding: 0 1rem;
+    }
+
+    .ctas ul {
+        gap: 0.5rem;
+    }
+
+    .main {
+        margin-top: 60px;
+    }
+
+    .product-card {
+        margin: 0.5rem 0;
+    }
+
+    .new-arrivals {
+        padding: 0.5rem 0 0 0;
+    }
+
+    .product-card h4 {
+        font-size: 1.2rem;
+    }
+
+    .product-card p {
+        font-size: 1.3rem;
+    }
+
+    .review-card {
+        min-height: 93%;
+    }
+
+    .behind-scene img {
+        width: 345px;
+    }
+
+    /* .categories {
+        padding: 2rem 1rem;
+    } */
+
+    .product-cont .row {
+        transform: none;
+        max-width: 95%;
+        top: 15%;
+        left: 4%;
+        width: 100%;
+    }
+
+    .lists .items-details .bc-btn button {
+        padding: 0px 5px;
+    }
+
+    .account .before-login {
+        width: 80%;
+        text-align: center;
+    }
+
+    .account .acc-creation {
+        top: 65px;
+    }
+
+    .account .inner-cont {
+        top: 40%;
+        width: 60%;
+        text-align: center;
+    }
+
+    .footer h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer .payments ul li {
+        font-size: 2rem;
+    }
+
+    .payments h2 {
+        margin-bottom: 0;
+    }
+
+    .categories .categories-list ul {
+        justify-content: flex-start;
+        overflow: auto;
+        padding: 0 1rem;
+    }
+
+    .categories .categories-list ul::-webkit-scrollbar {
+        height: 3px;
+        border-radius: 10px;
+    }
+
+    .categories .categories-list ul::-webkit-scrollbar-thumb {
+        background-color: #FF9A00;
+    }
+
+    .categories .categories-list ul::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+
+    .popup-overlay::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .popup-overlay::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 768px) {
+    .categories .categories-list ul {
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow: auto;
+        padding: 0 1rem;
+    }
+}
+
 @media (max-width:599px) {
     .desktop-view .ctas {
         display: none;
@@ -8,10 +150,9 @@
         gap: 0.5rem;
     }
 
-    .mobile-view .ctas button,
-    .ctas ul li {
+    .mobile-view .ctas button {
         background-color: var(--color2);
-        padding: 0px 10px 6px 10px;
+        padding: 0px 10px 1px 10px;
         border-radius: 5px;
         font-size: 1.5rem;
         color: #fff;
@@ -20,6 +161,10 @@
     .mobile-view .ctas button:hover {
         background-color: #fff;
         color: #000;
+    }
+
+    #mobile-navlink .wishlist-tab {
+        display: none;
     }
 
     .ctas ul li a {
@@ -66,20 +211,20 @@
         top: 0;
         right: 0;
         background: #000000de;
-        width: 50%;
+        width: 0;
         height: 100vh;
-        display: none;
-        transition: all 0.6s linear;
+        transition: 0.5s;
     }
 
     .open {
-        transition: all 0.2 linear;
+        transition: 0.5s;
     }
 
     .menu-links ul li a {
         color: var(--color3);
         text-decoration: none;
         font-size: 1.5rem;
+        transition: 0.5s;
     }
 
     .menu-links ul .nav-item a::before {
@@ -122,7 +267,8 @@
     }
 
     .media-gallery {
-        display: block !important;
+        display: grid !important;
+        grid-template-columns: auto auto !important;
     }
 
     .footer {
@@ -139,7 +285,7 @@
     }
 
     .behind-scene img {
-        width: 365px;
+        width: 360px;
     }
 
     .products-list {
@@ -188,88 +334,20 @@
 
     .categories .categories-list ul {
         justify-content: flex-start;
+        align-items: flex-start;
         overflow: auto;
-    }
-}
-
-@media (min-width:768px) and (max-width:990px) {
-    .ctas ul li {
-        padding: 2px 0.5rem;
-    }
-
-    header .row {
         padding: 0 1rem;
     }
 
-    .ctas ul {
-        gap: 0.5rem;
-    }
-
-    .main {
-        margin-top: 60px;
-    }
-
-    .product-card {
-        margin: 0.5rem 0;
-    }
-
-    .new-arrivals {
-        padding: 0.5rem 0 0 0;
-    }
-
-    .product-card h4 {
-        font-size: 1.2rem;
-    }
-
-    .product-card p {
-        font-size: 1.3rem;
-    }
-
-    .review-card {
-        min-height: 93%;
-    }
-
-    .behind-scene img {
-        width: 345px;
-    }
-
-    .categories {
-        padding: 2rem 1rem;
+    .product-description h3 {
+        font-size: 1rem;
     }
 
     .product-cont .row {
-        transform: translate(-48%, -50%);
-        width: 95%;
-    }
-
-    .lists .items-details .bc-btn button {
-        padding: 0px 5px;
-    }
-
-    .account .before-login {
-        width: 80%;
-        text-align: center;
-    }
-
-    .account .acc-creation {
-        top: 65px;
-    }
-
-    .account .inner-cont {
-        top: 40%;
-        width: 60%;
-        text-align: center;
-    }
-
-    .footer h2 {
-        font-size: 1.1rem;
-    }
-
-    .footer .payments ul li {
-        font-size: 2rem;
-    }
-
-    .payments h2 {
-        margin-bottom: 0;
+        max-width: 96%;
+        top: 10px;
+        left: 20px;
+        width: 96%;
+        transform: none;
     }
 }

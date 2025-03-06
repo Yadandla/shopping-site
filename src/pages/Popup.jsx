@@ -18,7 +18,7 @@ export const Popup = ({ product, closePopup }) => {
                                 <button onClick={closePopup}>X</button>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5 col-lg-5">
                             <div className="popup-item-img">
                                 <img src={product.image} alt={product.alt} />
                                 <div className="items-btn">
@@ -45,7 +45,7 @@ export const Popup = ({ product, closePopup }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-md-7 col-lg-7">
                             <div className="product-description">
                                 <h2>{product.title}</h2>
                                 <div className="d-flex justify-content-start align-items-center gap-1">

@@ -12,6 +12,7 @@ import 'swiper/css/scrollbar';
 import { IoStarSharp } from "react-icons/io5";
 import { IoMdStarHalf } from "react-icons/io";
 // import { useStoreContext } from "./StoreProvider";
+// import { Link } from "react-router-dom";
 
 export const Home = () => {
 
@@ -158,7 +159,7 @@ export const Home = () => {
                             loop={true}
                             autoplay={{ delay: 4000 }}
                             breakpoints={{
-                                390: {
+                                375: {
                                     slidesPerView: 1,
                                     spaceBetween: 40,
                                 },

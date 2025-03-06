@@ -12,6 +12,7 @@ import { Wishlist } from "./pages/Wishlist";
 import { StoreProvider } from "./pages/StoreProvider";
 // import { Account } from "./pages/Account";
 import { ScrollToTop } from "./pages/ScrollToTop";
+import Pricing from "./pages/Pricing";
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/wishlist" element={<Wishlist />} />
             {/* <Route path="/account" element={<Account />} /> */}
             <Route path="/cart" element={<Cart />} />
+            <Route path="/pricing" element={<Pricing />} />
           </Route>
         </Routes>
       </HashRouter>
