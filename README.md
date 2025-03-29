@@ -10,11 +10,9 @@ A modern e-commerce platform for women's trendy fashion collections (clothing, h
 
 ## Features ✨
 
-- **Product Catalog**: Browse collections with Swiper.js carousel
 - **Product Details**: Popup modal on clicking "More" button
-- **Wishlist & Cart**: Add/remove items using React Redux
+- **Wishlist & Cart**: Add/remove items
 - **Responsive Design**: Mobile-friendly interface
-- **Fake Store API**: Local JSON database for products
 
 ## Tech Stack 🛠️
 
@@ -59,3 +57,5 @@ A modern e-commerce platform for women's trendy fashion collections (clothing, h
 - Payment gateway integration
 
 - Search/filter functionality
+
+- User account
