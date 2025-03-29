@@ -27,20 +27,7 @@ _(Replace with actual screenshot of your site)_
 | UI Components    | Swiper.js, React Icons |
 | Deployment       | GitHub Pages           |
 
-## Project Structure 📂
-
-/src
-│── /assets # Images, icons
-│── /components # Reusable components
-│── /pages # Main views (Home, Cart, etc.)
-│── /redux # Redux store & slices
-│── /data # products.json (product database)
-│── App.jsx # Main app component
-└── main.jsx # Vite entry point
-
 ## How to Use 🛍️
-
-- **Browse Products**: Scroll through Swiper carousels
 
 - **View Details**: Click "More" button for product popup
 
@@ -50,11 +37,11 @@ _(Replace with actual screenshot of your site)_
 
 ## Deployment 🚀
 
-# Deploy to GitHub Pages:
+### Deploy to GitHub Pages:
 
-npm install gh-pages --save-dev
+- npm install gh-pages --save-dev
 
-# Add to package.json:
+### Add to package.json:
 
 "homepage": "https://your-username.github.io/your-repo-name",
 "scripts": {
@@ -62,9 +49,9 @@ npm install gh-pages --save-dev
 "deploy": "gh-pages -d dist"
 }
 
-# Run:
+### Run:
 
-npm run deploy
+- npm run deploy
 
 ## Future Improvements 🔮
 
