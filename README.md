@@ -14,6 +14,9 @@ A modern e-commerce platform for women's trendy fashion collections (clothing, h
 - **Wishlist & Cart**: Add/remove items
 - **Responsive Design**: Mobile-friendly interface
 
+## 🎨 Design Assets
+- All banners and some other images are created using [Canva](https://www.canva.com/).
+
 ## Tech Stack 🛠️
 
 | Category         | Technologies Used      |
