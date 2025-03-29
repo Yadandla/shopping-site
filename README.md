@@ -2,7 +2,7 @@
 
 A modern e-commerce platform for women's trendy fashion collections (clothing, handbags, shoes) built with React.js.
 
-![Image](https://github.com/user-attachments/assets/d039e68f-7d0d-49c6-8153-c18bdd9776d9)
+![Image](https://github.com/user-attachments/assets/c44d7965-f07f-4afb-8970-a8b190b9f93e)
 
 ## Live Demo 🌐
 
