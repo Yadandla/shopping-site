@@ -2,12 +2,11 @@
 
 A modern e-commerce platform for women's trendy fashion collections (clothing, handbags, shoes) built with React.js.
 
-![TrendyBoutique Screenshot](https://via.placeholder.com/800x400?text=TrendyBoutique+Demo)  
-_(Replace with actual screenshot of your site)_
+![Image](https://github.com/user-attachments/assets/d039e68f-7d0d-49c6-8153-c18bdd9776d9)
 
 ## Live Demo 🌐
 
-👉 [View on GitHub Pages](https://your-username.github.io/your-repo-name/)
+👉 [https://yadandla.github.io/shopping-site/](https://yadandla.github.io/shopping-site/)
 
 ## Features ✨
 
