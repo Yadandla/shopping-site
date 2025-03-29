@@ -1,8 +1,75 @@
-# React + Vite
+# TrendsU 👗👜👠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce platform for women's trendy fashion collections (clothing, handbags, shoes) built with React.js.
 
-Currently, two official plugins are available:
+![TrendyBoutique Screenshot](https://via.placeholder.com/800x400?text=TrendyBoutique+Demo)  
+_(Replace with actual screenshot of your site)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo 🌐
+
+👉 [View on GitHub Pages](https://your-username.github.io/your-repo-name/)
+
+## Features ✨
+
+- **Product Catalog**: Browse collections with Swiper.js carousel
+- **Product Details**: Popup modal on clicking "More" button
+- **Wishlist & Cart**: Add/remove items using React Redux
+- **Responsive Design**: Mobile-friendly interface
+- **Fake Store API**: Local JSON database for products
+
+## Tech Stack 🛠️
+
+| Category         | Technologies Used      |
+| ---------------- | ---------------------- |
+| Frontend         | React.js, Vite         |
+| State Management | Redux Toolkit          |
+| Routing          | React Router DOM       |
+| UI Components    | Swiper.js, React Icons |
+| Deployment       | GitHub Pages           |
+
+## Project Structure 📂
+
+/src
+│── /assets # Images, icons
+│── /components # Reusable components
+│── /pages # Main views (Home, Cart, etc.)
+│── /redux # Redux store & slices
+│── /data # products.json (product database)
+│── App.jsx # Main app component
+└── main.jsx # Vite entry point
+
+## How to Use 🛍️
+
+- **Browse Products**: Scroll through Swiper carousels
+
+- **View Details**: Click "More" button for product popup
+
+- **Add to Cart/Wishlist**: Click ❤️ or 🛒 icons
+
+- **Manage Items**: Remove from cart/wishlist in respective pages
+
+## Deployment 🚀
+
+# Deploy to GitHub Pages:
+
+npm install gh-pages --save-dev
+
+# Add to package.json:
+
+"homepage": "https://your-username.github.io/your-repo-name",
+"scripts": {
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+}
+
+# Run:
+
+npm run deploy
+
+## Future Improvements 🔮
+
+- User authentication
+
+- Payment gateway integration
+
+- Search/filter functionality

@@ -69,41 +69,6 @@ export const Shop = () => {
                                         }} className="d-flex justify-content-between align-items-center gap-5 text-decoration-none">Handbags</a></li>
                                     </ul>
 
-                                    {/* Filters for Size, Color, and Sort */}
-                                    {/* <div className="select-opt">
-                                        <div className="inner-select">
-                                            <select>
-                                                <option>Size</option>
-                                                <option>S</option>
-                                                <option>M</option>
-                                                <option>L</option>
-                                                <option>XS</option>
-                                                <option>XL</option>
-                                                <option>XXL</option>
-                                            </select>
-                                        </div>
-                                        <div className="inner-select">
-                                            <select>
-                                                <option>Color</option>
-                                                <option>Black</option>
-                                                <option>White</option>
-                                                <option>Yellow</option>
-                                                <option>Pink</option>
-                                            </select>
-                                        </div>
-                                        <div className="inner-select">
-                                            <select>
-                                                <option>Sort</option>
-                                                <option>A to Z</option>
-                                                <option>New Arrivals</option>
-                                                <option>Popular</option>
-                                            </select>
-                                        </div>
-                                        <div className="ar-btn d-flex gap-5">
-                                            <button>Apply</button>
-                                            <button>Reset</button>
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
                         </div>

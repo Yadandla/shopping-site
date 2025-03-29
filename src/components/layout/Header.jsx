@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-// import { IoMdPerson } from "react-icons/io";
 import { PiShoppingCartFill } from "react-icons/pi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
@@ -16,10 +15,6 @@ const Header = () => {
         document.getElementById("openmenu").style.display = "block";
 
     }
-
-    // const scrollToTop = () => {
-    //     window.scrollTo(0, 0);
-    // }
     return (
         <>
             <header>
@@ -28,7 +23,6 @@ const Header = () => {
                         <div className="row">
                             <div className="col-md-4 mobile-view">
                                 <div className="logo">
-                                    {/* <img src="" alt="logo" /> */}
                                     <NavLink to="/" ><h1>Trends<span>U</span></h1></NavLink>
                                 </div>
                                 <div className="ctas">
