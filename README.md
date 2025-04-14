@@ -4,10 +4,6 @@ A modern e-commerce platform for women's trendy fashion collections (clothing, h
 
 ![Image](https://github.com/user-attachments/assets/c44d7965-f07f-4afb-8970-a8b190b9f93e)
 
-## Live Demo 🌐
-
-👉 [https://yadandla.github.io/shopping-site/](https://yadandla.github.io/shopping-site/)
-
 ## Features ✨
 
 - **Product Details**: Popup modal on clicking "More" button
